@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - Pet Shop</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .contact-header {
+      background-color: #ff6600;
+      color: white;
+      padding: 60px 0;
+      text-align: center;
+    }
+
+    .contact-header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .contact-container {
+      max-width: 700px;
+      margin: -40px auto 40px;
+      background: white;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+    }
+
+    .form-control:focus {
+      border-color: #ff6600;
+      box-shadow: none;
+    }
+
+    .btn-primary {
+      background-color: #ff6600;
+      border: none;
+    }
+
+    .btn-primary:hover {
+      background-color: #ff6600;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Page Header -->
+  <div class="contact-header">
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you!</p>
+  </div>
+
+  <!-- Contact Form -->
+  <div class="contact-container">
+    <form onsubmit="event.preventDefault(); alert('Your message has been sent!');">
+      <div class="mb-3">
+        <label for="name" class="form-label">Full Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your full name" required />
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email Address</label>
+        <input type="email" class="form-control" id="email" placeholder="you@example.com" required />
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Your Message</label>
+        <textarea class="form-control" id="message" rows="5" placeholder="Write your message here..." required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary w-100">Send Message</button>
+    </form>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pets Home</title>
+    <!-- Bootstarp css -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Slick slider -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg bg-white shadow-sm">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Category</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Top Deals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+            <div class="d-flex align-items-center gap-3">
+                <a href="#" id="search-icon" class="icon-circle">
+                  <i class="fas fa-search"></i>
+                </a>
+                <a href="#" class="icon-circle">
+                  <i class="fa-solid fa-user"></i>
+                 
+                </a>
+                <a href="#" class="icon-circle position-relative">
+                  <i class="fa-solid fa-shopping-cart"></i>
+                  <span class="cart-badge">0</span> <!-- رقم وهمي للمثال -->
+                </a>
+              </div>
+          </div>
+        </div>
+        <div id="search-box" style="display: none; position: fixed; top: 100px; right: 50px; z-index: 1050; width: 350px;">
+            <form id="search-form"
+              onsubmit="event.preventDefault(); alert('Searching for : ' + this.searchInput.value);"
+              class="d-flex shadow-lg rounded-pill overflow-hidden bg-white p-2"
+            >
+              <i class="fas fa-search text-muted px-3 py-2"></i>
+              <input
+                type="text"
+                name="searchInput"
+                placeholder="Search ..."
+                class="form-control border-0"
+                style="box-shadow: none;"
+              />
+              <button type="submit" class="btn btn-primary px-4 rounded-pill">بحث</button>
+            </form>
+          </div>
+          
+          
+          
+      </nav>
+    </header>
+
+    <section class="banner-sec">
+      <div class="slider-area">
+        <div class="slider">
+          <div class="slide">
+            <div class="slide-content">
+              <h6>Best For your Pets</h6>
+              <h1>Healthy & Tasty Pet Food</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                vitae vel nulla dolor molestiae accusamus quod ipsa voluptatibus
+                eaque autem?
+              </p>
+            </div>
+            <img src="Img/main-banner-1.jpg" alt="" />
+          </div>
+          <div class="slide">
+            <div class="slide-content">
+              <h6>Special Offer</h6>
+              <h1>Get 50% Off on trees</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                vitae vel nulla dolor molestiae accusamus quod ipsa voluptatibus
+                eaque autem?
+              </p>
+            </div>
+            <img src="Img/main-banner-1.jpg" alt="" />
+          </div>
+          <div class="slide">
+            <div class="slide-content">
+              <h6>Best For your Pets</h6>
+              <h1>Premium Quality</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                vitae vel nulla dolor molestiae accusamus quod ipsa voluptatibus
+                eaque autem?
+              </p>
+            </div>
+            <img src="Img/main-banner-1.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lets make about section-->
+    <section class="about-sec">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="text-box">
+                <h6>Your Pet Will Love</h6>
+                <h2>The Journey to <span>Our Passion Fo Pets</span></h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et soluta recusandae, exercitationem aperiam tempore quaerat quasi architecto. Quis quam quos quo distinctio ad vel harum qui laboriosam incidunt magni repellendus enim neque provident ratione nesciunt non, eaque aspernatur possimus eos mollitia unde officia? Earum, inventore.</p>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et soluta recusandae, exercitationem aperiam tempore quaerat quasi architecto. Quis quam quos quo distinctio ad vel harum qui laboriosam incidunt magni repellendus enim neque provident ratione nesciunt non, eaque aspernatur possimus eos mollitia unde officia? Earum, inventore.</p>
+
+                <div class="btn mt-3"><a href="#">Read More</a></div >
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="event-img"><img src="Img/about.png" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 product-sec">
+        <div class="container">
+            <div class="text-box text-center mb-4 w-75 mx-auto">
+                <h6>Our Products</h6>
+                <h2>Featured <span>Products</span></h2>
+            </div>
+            <div class="row">
+               <div class="col-lg-4 col-md-6 mb-4">
+                <div class="product-box">
+                    <img src="Img/pro-1.jpg" alt="">
+                    <div class="product-info">
+                        <h5>Birds Foods</h5>
+                        <div class="price-box">
+                            <span class="old-price">$100.00</span>
+                            <span class="new-price">$50.00</span>
+                        </div>
+                        <ul class="products-icons">
+                            <li><a href=""><i class="fa-regular fa-eye"></i></a></li>
+                            <li><a href=""><i class="fa fa-heart"></i></a></li>
+                            <li><a href=""><i class="fa fa-shopping-cart"></i></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+               </div>
+               <div class="col-lg-4 col-md-6 mb-4">
+                <div class="product-box">
+                    <img src="Img/pro-2.jpg" alt="">
+                    <div class="product-info">
+                        <h5>Pet Formula</h5>
+                        <div class="price-box">
+                            <span class="old-price">$100.00</span>
+                            <span class="new-price">$50.00</span>
+                        </div>
+                        <ul class="products-icons">
+                            <li><a href=""><i class="fa-regular fa-eye"></i></a></li>
+                            <li><a href=""><i class="fa fa-heart"></i></a></li>
+                            <li><a href=""><i class="fa fa-shopping-cart"></i></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+               </div>
+               <div class="col-lg-4 col-md-6 mb-4">
+                <div class="product-box">
+                    <img src="Img/pro-3.jpg" alt="">
+                    <div class="product-info">
+                        <h5>Dried Warms</h5>
+                        <div class="price-box">
+                            <span class="old-price">$100.00</span>
+                            <span class="new-price">$50.00</span>
+                        </div>
+                        <ul class="products-icons">
+                            <li><a href=""><i class="fa-regular fa-eye"></i></a></li>
+                            <li><a href=""><i class="fa fa-heart"></i></a></li>
+                            <li><a href=""><i class="fa fa-shopping-cart"></i></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+               </div>
+               <div class="col-lg-4 col-md-6 mb-4">
+                <div class="product-box">
+                    <img src="Img/pro-4.jpg" alt="">
+                    <div class="product-info">
+                        <h5>Pet Snacks</h5>
+                        <div class="price-box">
+                            <span class="old-price">$100.00</span>
+                            <span class="new-price">$50.00</span>
+                        </div>
+                        <ul class="products-icons">
+                            <li><a href=""><i class="fa-regular fa-eye"></i></a></li>
+                            <li><a href=""><i class="fa fa-heart"></i></a></li>
+                            <li><a href=""><i class="fa fa-shopping-cart"></i></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+               </div>
+               <div class="col-lg-4 col-md-6 mb-4">
+                <div class="product-box">
+                    <img src="Img/pro-5.jpg" alt="">
+                    <div class="product-info">
+                        <h5>Pet protein</h5>
+                        <div class="price-box">
+                            <span class="old-price">$100.00</span>
+                            <span class="new-price">$50.00</span>
+                        </div>
+                        <ul class="products-icons">
+                            <li><a href=""><i class="fa-regular fa-eye"></i></a></li>
+                            <li><a href=""><i class="fa fa-heart"></i></a></li>
+                            <li><a href=""><i class="fa fa-shopping-cart"></i></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+               </div>
+
+               <div class="col-lg-4 col-md-6 mb-4">
+                <div class="product-box">
+                    <img src="Img/pro-6.jpg" alt="">
+                    <div class="product-info">
+                        <h5>Pet Suasages</h5>
+                        <div class="price-box">
+                            <span class="old-price">$100.00</span>
+                            <span class="new-price">$50.00</span>
+                        </div>
+                        <ul class="products-icons">
+                            <li><a href=""><i class="fa-regular fa-eye"></i></a></li>
+                            <li><a href=""><i class="fa fa-heart"></i></a></li>
+                            <li><a href=""><i class="fa fa-shopping-cart"></i></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+               </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!--Make Bg Section-->
+    <section class="bg-sec py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6"></div>
+                <div class="col-lg-6">
+                    <div class="bg-text text-end">
+                        <h1>Pets Comfort & <span>JOY</span></h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non id quae, iusto accusamus perferendis ratione!</p>
+                        <div class="btn"><a href="">Shop Now    </a></div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section class="py-5 testimonial">
+        <div class="container">
+            <div class="text-box text-center mb-4 w-75 mx-auto">
+                <h6>Our Testimonial</h6>
+                <h2>What Our Clients<span>Says</span></h2>
+            </div>
+            <div class="testimonial-slider mt-5">
+                <div class="testimomial-box">
+                    <div class="test-img">
+                        <img src="Img/profil-1.jpg" alt="">
+                        <div class="test-head">
+                            <h4>Alexander Sleigh</h4>
+                            <span>Founder</span>
+                        </div>
+                    </div>
+                    <div class="test-cont">
+                        <div class="test-icon">
+                            <img src="Img/quotation-mark.png" alt=""></div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, quam, quaerat voluptatibus debitis, accusantium autem cum optio soluta blanditiis ex nemo voluptatem et ipsum aperiam.</p>
+                        
+                    </div>
+                </div>
+
+                
+                <div class="testimomial-box">
+                    <div class="test-img">
+                        <img src="Img/profil-2.jpg" alt="">
+                        <div class="test-head">
+                            <h4>Haanah Dakot</h4>
+                            <span>Founder</span>
+                        </div>
+                    </div>
+                    <div class="test-cont">
+                        <div class="test-icon">
+                            <img src="Img/quotation-mark.png" alt=""></div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, quam, quaerat voluptatibus debitis, accusantium autem cum optio soluta blanditiis ex nemo voluptatem et ipsum aperiam.</p>
+                    </div>
+                </div>
+
+                
+                <div class="testimomial-box">
+                    <div class="test-img">
+                        <img src="Img/profil-3.jpg" alt="">
+                        <div class="test-head">
+                            <h4>Alexander Sleigh</h4>
+                            <span>Founder</span>
+                        </div>
+                    </div>
+                    <div class="test-cont">
+                        <div class="test-icon">
+                            <img src="Img/quotation-mark.png" alt=""></div>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, quam, quaerat voluptatibus debitis, accusantium autem cum optio soluta blanditiis ex nemo voluptatem et ipsum aperiam.</p>
+                    </div>
+                </div>
+
+            </div>
+          </div>
+    </section>
+
+    <!-- footer section -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-center m-auto">
+                    <img src="img/footer-logo.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos distinctio possimus laudantium sapiente similique dolor architecto minima qui quo fuga?</p>
+                    <div class="footer-social">
+                        <ul>
+                            <li><a href="https://www.facebook.com/elhussienyelnemr"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="https://x.com/x0tiger"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/el7ussieny_elnemr/"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/x0tiger/"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="copeyrights">
+                <div class="text-center"><a href="">Copyrights@2025 By ElHussieny El-Nemr: All Rights Reserved</a></div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Bootstarp js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jquery js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Slick slider js -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <!-- add Slick Sliders code Here-->
+    <script>
+      $(".slider").slick({
+        dots: false,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        Speed: 500,
+        arrows: true,
+        autoplaySpeed: 3000,
+        prevArrow:
+          '<button class="slick-prev"><i class="fa-solid fa-chevron-left"></i></button>',
+        nextArrow:
+          '<button class="slick-next"><i class="fa-solid fa-chevron-right"></i></button>',
+      });
+    </script>
+
+
+<!-- Testimonial slider -->
+ <script>
+$('.testimonial-slider').slick({
+    dots: false,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });
+  </script>
+  <script>
+    document.getElementById("search-icon").addEventListener("click", function(e) {
+      e.preventDefault();
+      const searchBox = document.getElementById("search-box");
+      if (searchBox.style.display === "none") {
+        searchBox.style.display = "block";
+      } else {
+        searchBox.style.display = "none";
+      }
+    });
+  </script>
+  </body>
+</html>
