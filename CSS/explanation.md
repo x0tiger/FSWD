@@ -2,7 +2,7 @@
 
 ## What is CSS?
 
-CSS (**Cascading Style Sheets**) is a language used to control the **appearance and layout** of web pages. It allows you to change colors, fonts, spacing, sizes, element positions, layouts, and more.
+CSS (**Cascading Style Sheets**) is a language used to control the **appearance and layout** of web pages. It allows you to change colors, fonts, spacing, sizes, element positions, layouts, and more..
 
 ---
 
