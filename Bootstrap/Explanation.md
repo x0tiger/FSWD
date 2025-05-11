@@ -5,7 +5,7 @@
 
 ### ✅ Key Features:
 
-- Predefined **CSS classes** for layout, typography, buttons, forms, etc.
+- Predefined **CSS classes** for layout, typography, buttons, forms, etc..
     
 - Built-in **responsive grid system**.
     
