@@ -16,7 +16,7 @@ It tells the browser how to display text, images, links, and other elements.
 
 ---
 
-## 🧾 Default Structure of an HTML Webpage
+## 🧾 Default Structure of an HTML Webpage :)
 
 ```
 <!DOCTYPE html>
