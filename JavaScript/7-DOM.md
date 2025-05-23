@@ -44,7 +44,7 @@ console.log(document.body.nodeType); // 1 => Element
 
 ---
 
-### 3. **Root, Siblings and Children**
+### 3. **Root,, Siblings and Children**
 
 ```html
 <div id="parent">
