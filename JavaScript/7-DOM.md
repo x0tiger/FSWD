@@ -1,6 +1,4 @@
-Here’s a **detailed explanation** of the **JavaScript DOM** and its key concepts with working examples. I'll also highlight areas that relate to **DOM-based XSS vulnerabilities** so you're aware of the security concerns.
 
----
 
 ### 1. **What is the JavaScript DOM (Document Object Model)?**
 
