@@ -1,5 +1,5 @@
 
-# 🕸️ Difference Between Web Browser, Website, Web Page, and Web Server
+#  Difference Between Web Browser, Website, Web Page, and Web Server
 
 ### 1. **Web Browser**
 
@@ -7,7 +7,7 @@
     
 - Sends requests to servers and displays web pages.
     
-- 🧭 Examples: Chrome, Firefox, Safari.
+-  Examples: Chrome, Firefox, Safari.
     
 
 ---
@@ -18,7 +18,7 @@
     
 - Provides content or services.
     
-- 🌐 Example: `www.example.com`.
+-  Example: `www.example.com`.
     
 
 ---
@@ -29,7 +29,7 @@
     
 - Contains text, images, buttons, etc.
     
-- 📄 Example: A “Contact Us” page.
+-  Example: A “Contact Us” page.
     
 
 ---
@@ -44,9 +44,9 @@
 
 ---
 
-# 🔄 How Frontend and Backend Communicate
+#  How Frontend and Backend Communicate
 
-### ✅ Quick Definitions
+###  Quick Definitions
 
 - **Frontend**: The part users see and interact with (HTML, CSS, JavaScript).
     
@@ -55,7 +55,7 @@
 
 ---
 
-### ⚙️ Step-by-Step Communication
+###  Step-by-Step Communication
 
 #### 1. **User interacts with the frontend**
 
@@ -95,7 +95,7 @@ fetch("https://example.com/api/login", {
 
 ---
 
-### 🧠 Simple Analogy: Restaurant 🍽️
+###  Simple Analogy: Restaurant 🍽️
 
 | Real Life   | Web App Equivalent      |
 | ----------- | ----------------------- |
@@ -107,7 +107,7 @@ fetch("https://example.com/api/login", {
 
 ---
 
-### 🧩 Common Technologies
+###  Common Technologies
 
 |             |                                   |
 | ----------- | --------------------------------- |
