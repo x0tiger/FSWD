@@ -1,9 +1,9 @@
 
-## 🧩 What is Bootstrap?
+##  What is Bootstrap?
 
 **Bootstrap** is a popular open-source **CSS framework** used to build responsive, mobile-first websites quickly and efficiently.
 
-### ✅ Key Features:
+###  Key Features:
 
 - Predefined **CSS classes** for layout, typography, buttons, forms, etc..
     
@@ -18,11 +18,11 @@
 
 ---
 
-## 📦 How to Install (Include) Bootstrap?
+##  How to Install (Include) Bootstrap?
 
 There are **three main methods** to include Bootstrap in your project:
 
-### 1. ✅ **Using CDN (Content Delivery Network)** (Recommended for most projects)
+### 1.  **Using CDN (Content Delivery Network)** (Recommended for most projects)
 
 - **`Bootstrap CDN: Delivering Bootstrap files (CSS, JS) from external servers for faster loading and easier integration.`**
 - **`BS CDN: Utilizing a Content Delivery Network to serve Bootstrap assets, improving website performance and reducing server load.`**
@@ -45,7 +45,7 @@ And the JS bundle (for interactive components):
 
 ---
 
-### 2. 📥 **Installing via NPM (for advanced workflows)**
+### 2.  **Installing via NPM (for advanced workflows)**
 
 ```
 npm install bootstrap
@@ -60,7 +60,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 ---
 
-### 3. 💾 **Download and host manually**
+### 3.  **Download and host manually**
 
 - Download from [https://getbootstrap.com](https://getbootstrap.com).
     
@@ -69,7 +69,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 ---
 
-## ❌ What Are the Drawbacks of Using Native CSS?
+##  What Are the Drawbacks of Using Native CSS?
 
 While writing plain (native) CSS gives full control, it has a few drawbacks:
 
@@ -90,7 +90,7 @@ While writing plain (native) CSS gives full control, it has a few drawbacks:
 
 ---
 
-## 📐 What Is a Grid System?
+##  What Is a Grid System?
 
 A **grid system** in web design is a structure made up of rows and columns used to align and position elements on a page.
 
@@ -98,7 +98,7 @@ Bootstrap uses a **12-column responsive grid system** based on **Flexbox**.
 
 ---
 
-### 🔹 How the Bootstrap Grid System Works:
+###  How the Bootstrap Grid System Works:
 
 - The main layout container is `.container` or `.container-fluid`.
     
@@ -109,7 +109,7 @@ Bootstrap uses a **12-column responsive grid system** based on **Flexbox**.
 
 ---
 
-### 🧱 Example:
+###  Example:
 
 ```
 <div class="container">
@@ -140,7 +140,7 @@ Bootstrap uses a **12-column responsive grid system** based on **Flexbox**.
 
 ---
 
-### 🔄 Example: Auto-responsive columns
+###  Example: Auto-responsive columns
 
 ```
 <div class="row">
@@ -154,7 +154,7 @@ Each `.col` shares the space **equally**, regardless of screen size.
 
 ---
 
-### 📱 Responsive Breakpoints (Bootstrap 5):
+###  Responsive Breakpoints (Bootstrap 5):
 
 |Breakpoint|Class Prefix|Min Width|
 |---|---|---|
@@ -175,13 +175,13 @@ Each `.col` shares the space **equally**, regardless of screen size.
 
 ---
 
-## 📐 The Grid System in Bootstrap
+##  The Grid System in Bootstrap
 
 Bootstrap’s grid system is based on **12 columns** and built using **Flexbox**, allowing you to create responsive layouts quickly and flexibly.
 
 ---
 
-## 🧱 Basic Grid Structure:
+##  Basic Grid Structure:
 
 ```
 <div class="container">
@@ -201,7 +201,7 @@ Bootstrap’s grid system is based on **12 columns** and built using **Flexbox**
 
 ---
 
-## 📊 Breakpoints in Bootstrap
+##  Breakpoints in Bootstrap
 
 These breakpoints define how the layout adapts to different screen sizes:
 
@@ -214,7 +214,7 @@ These breakpoints define how the layout adapts to different screen sizes:
 |Extra Large|`col-xl-`|`≥1200px`|
 |Extra Extra Large|`col-xxl-`|`≥1400px`|
 
-🔸 **Example:**
+ **Example:**
 
 ```
 <div class="col-12 col-md-6">
@@ -224,7 +224,7 @@ These breakpoints define how the layout adapts to different screen sizes:
 
 ---
 
-## 🔃 Ordering Columns
+##  Ordering Columns
 
 You can control the **display order** using the `order-*` classes:
 
@@ -241,7 +241,7 @@ You can also target breakpoints:
 
 ---
 
-## ⬅️ Offsetting Columns
+##  Offsetting Columns
 
 Use `offset-*` classes to shift a column to the right by a number of columns:
 
@@ -253,7 +253,7 @@ Use `offset-*` classes to shift a column to the right by a number of columns:
 
 ---
 
-## 🔄 Horizontal Alignment (justify-content)
+##  Horizontal Alignment (justify-content)
 
 Apply these to the `.row` element to align columns horizontally:
 
@@ -274,7 +274,7 @@ Apply these to the `.row` element to align columns horizontally:
 
 ---
 
-## ↕️ Vertical Alignment (align-items / align-self)
+##  Vertical Alignment (align-items / align-self)
 
 ### On the row (for all children):
 
@@ -294,7 +294,7 @@ Apply these to the `.row` element to align columns horizontally:
 
 ---
 
-## 🧪 Complete Example:
+##  Complete Example:
 
 ```
 <div class="container">
@@ -309,9 +309,9 @@ Apply these to the `.row` element to align columns horizontally:
 </div>
 ```
 
----## 💡 Bootstrap 5 Utility Classes
+---##  Bootstrap 5 Utility Classes
 
-### 📝 Text Alignment & Style
+###  Text Alignment & Style
 
 |Class|Description|
 |---|---|
@@ -329,11 +329,11 @@ Apply these to the `.row` element to align columns horizontally:
 |`font-weight-light`|Light font weight|
 |`font-weight-lighter`|Lighter than light|
 
-> 🔹 **Note**: `text-left` and `text-right` are replaced with `text-start` and `text-end` in Bootstrap 5.
+>  **Note**: `text-left` and `text-right` are replaced with `text-start` and `text-end` in Bootstrap 5.
 
 ---
 
-### 🎨 Background & Text Colors
+###  Background & Text Colors
 
 |   |   |
 |---|---|
@@ -344,7 +344,7 @@ Apply these to the `.row` element to align columns horizontally:
 
 ---
 
-### 📦 Borders & Shadows
+###  Borders & Shadows
 
 |   |   |
 |---|---|
@@ -360,7 +360,7 @@ Apply these to the `.row` element to align columns horizontally:
 
 ---
 
-### 🧭 Position Utilities
+###  Position Utilities
 
 |   |   |
 |---|---|
@@ -372,7 +372,7 @@ Apply these to the `.row` element to align columns horizontally:
 
 ---
 
-### 📐 Spacing Utilities
+###  Spacing Utilities
 
 Use `m` for margin and `p` for padding.  
 Format: `m{side}-{breakpoint}-{size}`
@@ -389,7 +389,7 @@ Examples:
 
 ---
 
-### 🔘 Buttons
+###  Buttons
 
 |   |   |
 |---|---|
@@ -400,7 +400,7 @@ Examples:
 
 ---
 
-### 🖼️ Images
+###  Images
 
 |   |   |
 |---|---|
@@ -411,7 +411,7 @@ Examples:
 
 ---
 
-## 🏠 Example: Simple Home Page (Bootstrap 5)
+##  Example: Simple Home Page (Bootstrap 5)
 
 ```
 <!DOCTYPE html>
@@ -448,9 +448,9 @@ Examples:
 
 ---
 
-## 🎯 Bootstrap Components Overview
+##  Bootstrap Components Overview
 
-### ✅ Alerts
+###  Alerts
 
 Used to provide feedback messages like success, warning, or errors.
 
@@ -490,7 +490,7 @@ Used for counters, labels, or highlights.
 |Warning|`bg-warning`|
 |Info|`bg-info`|
 
-🔹 You can also use badges with headings or buttons:
+ You can also use badges with headings or buttons:
 
 ```
 <h4>Inbox <span class="badge bg-danger">4</span></h4>
@@ -498,7 +498,7 @@ Used for counters, labels, or highlights.
 
 ---
 
-### ⬇️ Dropdowns
+###  Dropdowns
 
 Simple interactive dropdown menus:
 
@@ -516,7 +516,7 @@ Simple interactive dropdown menus:
 
 ---
 
-### 🃏 Cards
+###  Cards
 
 Used for building blocks of content like profiles, products, or posts.
 
@@ -533,7 +533,7 @@ Used for building blocks of content like profiles, products, or posts.
 
 ---
 
-### 🎥 Media Object 
+###  Media Object 
 
 Used to align an image and text side by side using Flexbox utilities.
 
@@ -549,7 +549,7 @@ Used to align an image and text side by side using Flexbox utilities.
 
 ---
 
-### 🔍 Explanation:
+###  Explanation:
 
 - `**d-flex**`: Enables Flexbox layout.
     
@@ -563,7 +563,7 @@ Used to align an image and text side by side using Flexbox utilities.
 
 ---
 
-## 🏷️ Adding a Badge Overlay to a Card (like product discount)
+##  Adding a Badge Overlay to a Card (like product discount)
 
 You can place a badge in a card using **position utilities**:
 
@@ -582,7 +582,7 @@ You can place a badge in a card using **position utilities**:
 </div>
 ```
 
-🧩 Breakdown:
+ Breakdown:
 
 - `position-relative` → applied to `.card` as a container
     
@@ -592,7 +592,7 @@ You can place a badge in a card using **position utilities**:
     
 
 ---
-### 🏷️ About Us Webpage 
+###  About Us Webpage 
 
 ```html
 <!DOCTYPE html>
@@ -639,13 +639,13 @@ You can place a badge in a card using **position utilities**:
 
 ---
 
-🧩 **Key Features Used**:
+ **Key Features Used**:
 - `container`, `row`, and `col-md-*` for layout
 - `img-fluid`, `rounded`, `shadow` for image styling
 - `text-primary`, `text-muted`, `btn-success` for colors and buttons
 - No navigation bar included
 - ---
-## 📂 Collapse Component
+##  Collapse Component
 
 The **collapse component** is used to toggle visibility of content (like accordions or hidden sections):
 
@@ -661,15 +661,15 @@ The **collapse component** is used to toggle visibility of content (like accordi
 </div>
 ```
 
-> 💡 Use `show` class to make it visible by default.
+>  Use `show` class to make it visible by default.
 
 ---
 
-## 📋 Forms 
+##  Forms 
 
 Bootstrap makes form styling and layout easy using utility classes.
 
-### 🧱 Stacked Forms (Default)
+###  Stacked Forms (Default)
 
 Each input appears in a new line (block-level):
 
@@ -689,7 +689,7 @@ Each input appears in a new line (block-level):
 
 ---
 
-### 📏 Inline Forms
+###  Inline Forms
 
 Inputs are in one line (for small forms like login, search, etc.):
 
@@ -709,7 +709,7 @@ Inputs are in one line (for small forms like login, search, etc.):
 
 ---
 
-### 🧩 Grid System in Forms
+###  Grid System in Forms
 
 You can apply the grid layout to forms to control label/input alignment:
 
@@ -731,11 +731,11 @@ You can apply the grid layout to forms to control label/input alignment:
 </form>
 ```
 
-> ✅ Use `row`, `col-sm-*`, and `col-form-label` for responsive form layouts.
+>  Use `row`, `col-sm-*`, and `col-form-label` for responsive form layouts.
 
 ---
 
-## 🎠 Carousel Component
+##  Carousel Component
 
 Used to show image slides (banners, galleries):
 
@@ -758,11 +758,11 @@ Used to show image slides (banners, galleries):
 </div>
 ```
 
-> 🎯 Use `carousel-item active` for the first slide, and `d-block w-100` on images.
+>  Use `carousel-item active` for the first slide, and `d-block w-100` on images.
 
 ---
 
-## 📊 Tables
+##  Tables
 
 Basic styled table:
 
@@ -798,7 +798,7 @@ Basic styled table:
 |`table-dark`|Dark header row|-
 
 ---
-## 🧭 Navigation Concepts
+##  Navigation Concepts
 
 Navigation is the system that allows users to explore and interact with a website. It’s categorized into three main types:
 
@@ -831,11 +831,11 @@ Navigation is the system that allows users to explore and interact with a websit
 
 ---
 
-## 🧱  Navigation Bars
+##   Navigation Bars
 
 Bootstrap makes it easy to create responsive navigation bars with minimal code.
 
-### 🔹 Basic Navbar Example
+###  Basic Navbar Example
 
 ```
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -867,15 +867,15 @@ Bootstrap makes it easy to create responsive navigation bars with minimal code.
 </nav>
 ```
 
-> 📝 Add `.navbar-light` or `.navbar-dark` depending on background color, and use `.bg-*` classes to style.
+>  Add `.navbar-light` or `.navbar-dark` depending on background color, and use `.bg-*` classes to style.
 
 ---
 
-## 🍞 Breadcrumb 
+##  Breadcrumb 
 
 **Breadcrumbs** show the user’s current location within the hierarchy of a site and allow easy navigation back to parent pages.
 
-### 🔹 Basic Breadcrumb Example
+###  Basic Breadcrumb Example
 
 ```
 <nav aria-label="breadcrumb">
@@ -887,7 +887,7 @@ Bootstrap makes it easy to create responsive navigation bars with minimal code.
 </nav>
 ```
 
-### 🔸 Breadcrumb Key Classes
+###  Breadcrumb Key Classes
 
 |Class|Purpose|
 |---|---|
@@ -896,11 +896,11 @@ Bootstrap makes it easy to create responsive navigation bars with minimal code.
 |`.active`|Marks the current location|
 |`aria-current`|For accessibility and SEO|
 
-> ✅ Use breadcrumbs especially in multi-level websites like dashboards, shops, and admin panels.
+>  Use breadcrumbs especially in multi-level websites like dashboards, shops, and admin panels.
 
 ---
 
-### 🛒 E-Commerce Home Page 
+###  E-Commerce Home Page 
 
 ```html
 <!DOCTYPE html>
@@ -913,7 +913,7 @@ Bootstrap makes it easy to create responsive navigation bars with minimal code.
 </head>
 <body>
 
-  <!-- 🔝 Navbar -->
+  <!--  Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">E-Shop</a>
@@ -937,7 +937,7 @@ Bootstrap makes it easy to create responsive navigation bars with minimal code.
     </div>
   </nav>
 
-  <!-- 🏷️ Popular Tags -->
+  <!-- 🏷 Popular Tags -->
   <div class="container mt-4">
     <h5>Popular Tags</h5>
     <div>
@@ -949,7 +949,7 @@ Bootstrap makes it easy to create responsive navigation bars with minimal code.
     </div>
   </div>
 
-  <!-- 🧭 Category Navigation -->
+  <!--  Category Navigation -->
   <div class="container mt-4">
     <h5>Shop by Category</h5>
     <div class="row">
@@ -961,7 +961,7 @@ Bootstrap makes it easy to create responsive navigation bars with minimal code.
     </div>
   </div>
 
-  <!-- 🛍️ Product Cards -->
+  <!--  Product Cards -->
   <div class="container mt-4">
     <h5>Featured Products</h5>
     <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -998,7 +998,7 @@ Bootstrap makes it easy to create responsive navigation bars with minimal code.
     </div>
   </div>
 
-  <!-- 🦶 Footer -->
+  <!--  Footer -->
   <footer class="bg-dark text-white mt-5 p-4 text-center">
     &copy; 2025 E-Shop. All rights reserved.
   </footer>
