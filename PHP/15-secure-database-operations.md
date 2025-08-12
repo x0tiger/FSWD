@@ -116,7 +116,7 @@ You can also use session flash messages.
 
 ---
 
-## Advanced Example: Secure city deletion with confirmation and flash message
+## Example: Secure city deletion with confirmation and flash message
 
 ```php
 <?php
