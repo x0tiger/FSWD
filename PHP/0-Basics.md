@@ -2,7 +2,7 @@
 
 ###  **1. What is the big picture of web development?**
 
-Web development is all about building websites and web apps. Think of it like this:
+Web development is all about building websites and web apps. Think of it like this:-
 
 * **Frontend** → what users see: buttons, text, images.
 * **Backend** → how things work behind the scenes: login, save data, etc.
