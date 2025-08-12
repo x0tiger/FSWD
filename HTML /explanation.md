@@ -1,11 +1,11 @@
 
-## 📝 What is HTML?
+##  What is HTML?
 
 **HTML (HyperText Markup Language)** is the standard language used to create and structure content on the web.  
 It tells the browser how to display text, images, links, and other elements.
 
 
-## 🗂️ How to Create an HTML File?
+##  How to Create an HTML File?
 
 1. Open any text editor (e.g., VS Code, Notepad, Sublime Text).
     
@@ -16,7 +16,7 @@ It tells the browser how to display text, images, links, and other elements.
 
 ---
 
-## 🧾 Default Structure of an HTML Webpage :)
+##  Default Structure of an HTML Webpage :)
 
 ```
 <!DOCTYPE html>
@@ -32,7 +32,7 @@ It tells the browser how to display text, images, links, and other elements.
 
 ---
 
-## 🧱 What are Elements, Tags, and Attributes?
+##  What are Elements, Tags, and Attributes?
 
 - **Element**: The complete structure, including tags and content.  
     Example: `<p>Hello</p>`
@@ -46,7 +46,7 @@ It tells the browser how to display text, images, links, and other elements.
 
 ---
 
-## 🔄 Self-Closing Tags vs Open-Close Tags
+##  Self-Closing Tags vs Open-Close Tags
 
 |Type|Example|Description|
 |---|---|---|
@@ -55,7 +55,7 @@ It tells the browser how to display text, images, links, and other elements.
 
 ---
 
-## 🧱 Block-level Elements vs Inline-level Elements
+##  Block-level Elements vs Inline-level Elements
 
 |   |   |   |
 |---|---|---|
@@ -65,7 +65,7 @@ It tells the browser how to display text, images, links, and other elements.
 
 ---
 
-## 🔍 What are Meta Tags?
+##  What are Meta Tags?
 
 **Meta tags** provide metadata (information about the webpage) to the browser and search engines.
 
@@ -81,7 +81,7 @@ They go inside the `<head>` section.
 
 ---
 
-## 🔑 Key-Value Attributes vs Boolean Attributes
+##  Key-Value Attributes vs Boolean Attributes
 
 |           |                                    |                                  |
 | --------- | ---------------------------------- | -------------------------------- |
@@ -93,7 +93,7 @@ They go inside the `<head>` section.
 
 ---
 
-## 🏷️ Common Tags: `p`, `u`, `b`, `s`, `i`
+##  Common Tags: `p`, `u`, `b`, `s`, `i`
 
 |       |                    |                               |
 | ----- | ------------------ | ----------------------------- |
@@ -105,7 +105,7 @@ They go inside the `<head>` section.
 | `<i>` | Italic text        | `<i>Italic</i>`               |
 
 ---
-## 🏷️ HTML Tags: `p`, `blockquote`, `pre`, `br`, `hr`, `sup`, `sub`
+##  HTML Tags: `p`, `blockquote`, `pre`, `br`, `hr`, `sup`, `sub`
 
 |Tag|Description|Example|
 |---|---|---|
@@ -119,7 +119,7 @@ They go inside the `<head>` section.
 
 ---
 
-## ❌ What is Ignored by HTML?
+##  What is Ignored by HTML?
 
 - **Extra whitespace** (spaces, tabs, newlines) is **collapsed** into a single space.
     
@@ -134,11 +134,11 @@ They go inside the `<head>` section.
 
 ---
 
-## 📋 What Are Lists?
+##  What Are Lists?
 
 **Lists** allow you to group related content in a structured way.
 
-### 🔢 Types of Lists:
+###  Types of Lists:
 
 1. **Ordered List** (numbered):
     
@@ -170,7 +170,7 @@ They go inside the `<head>` section.
 
 ---
 
-## 🔄 Nested HTML Lists
+##  Nested HTML Lists
 
 Lists inside lists (multilevel structure):
 
@@ -187,7 +187,7 @@ Lists inside lists (multilevel structure):
 
 ---
 
-## ⚙️ List Attributes: `start`, `type`, `reversed`
+##  List Attributes: `start`, `type`, `reversed`
 
 Used with `<ol>` to control the list behavior.
 
@@ -200,7 +200,7 @@ Used with `<ol>` to control the list behavior.
 
 ---
 
-## 🔤 What Are HTML Entities?
+##  What Are HTML Entities?
 
 Used to display reserved or special characters in HTML.
 
@@ -215,7 +215,7 @@ Used to display reserved or special characters in HTML.
 
 ---
 
-## 🏷️ HTML Headings: `h1` to `h6`
+##  HTML Headings: `h1` to `h6`
 
 Used to define titles or headings on the page.
 
@@ -229,10 +229,10 @@ Used to define titles or headings on the page.
 | `<h5>` | ...      | `<h5>Note</h5>`          |
 | `<h6>` | Smallest | `<h6>Fine Print</h6>`    |
 
-> ⚠️ **Only one** `**<h1>**` should be used per page for SEO and accessibility.
+> **Only one** `**<h1>**` should be used per page for SEO and accessibility.
 
 --------------------------------------------------------------
-## 🆔 ID vs. Class Attributes
+##  ID vs. Class Attributes
 
 |Attribute|ID|Class|
 |---|---|---|
@@ -249,7 +249,7 @@ Used to define titles or headings on the page.
 
 ---
 
-## 💬 `div` vs. `span` Tags
+##  `div` vs. `span` Tags
 
 |   |   |   |
 |---|---|---|
@@ -270,7 +270,7 @@ Used to define titles or headings on the page.
 
 ---
 
-## 🔗 What Are Links? Using Anchor Tags (`<a>`)
+##  What Are Links? Using Anchor Tags (`<a>`)
 
 **Links** are created using the `<a>` (anchor) tag. It allows users to navigate to different pages, sections, or external resources.
 
@@ -285,7 +285,7 @@ Used to define titles or headings on the page.
 
 ---
 
-## 🔄 Relative vs. Absolute Linking
+##  Relative vs. Absolute Linking
 
 |   |   |   |
 |---|---|---|
@@ -295,7 +295,7 @@ Used to define titles or headings on the page.
 
 ---
 
-## 📌 Targeting an Element in the Same Webpage
+##  Targeting an Element in the Same Webpage
 
 To create a **link** that targets an **element on the same page**:
 
@@ -315,7 +315,7 @@ To create a **link** that targets an **element on the same page**:
 
 ---
 
-## 🖼️ Blank, Named, and Self Targets in the Anchor Tag
+##  Blank, Named, and Self Targets in the Anchor Tag
 
 |   |   |   |
 |---|---|---|
@@ -328,7 +328,7 @@ To create a **link** that targets an **element on the same page**:
 
 ---
 
-## 🖼️ How to Link an Image? Using Image Tags (`<img>`)
+##  How to Link an Image? Using Image Tags (`<img>`)
 
 To **link an image** to a webpage or resource, use the `<img>` tag with the `src` attribute for the image path and the `alt` attribute for alternative text.
 
@@ -345,7 +345,7 @@ To **link an image** to a webpage or resource, use the `<img>` tag with the `src
 
 ---
 
-## 📧 Using Other Protocols (e.g., "mailto")
+##  Using Other Protocols (e.g., "mailto")
 
 You can use the `mailto` protocol to create a **link** that opens the user's default email client to send an email.
 
@@ -359,7 +359,7 @@ You can use the `mailto` protocol to create a **link** that opens the user's def
     
 
 --------------------------------------
-## 🎥 Using `<video>` and `<audio>` Tags
+##  Using `<video>` and `<audio>` Tags
 
 ### **Video Tag (**`**<video>**`**)**
 
@@ -401,7 +401,7 @@ The `<audio>` tag is used for embedding audio files, like music or sound effects
 
 ---
 
-## 📺 Using `<iframe>` Tag and Embedding from YouTube and SoundCloud
+##  Using `<iframe>` Tag and Embedding from YouTube and SoundCloud
 
 The `<iframe>` tag is used to embed external content like videos, maps, and social media posts.
 
@@ -435,7 +435,7 @@ To embed a SoundCloud track, use the embed code provided by SoundCloud.
 
 ---
 
-## 📊 Creating Tables in HTML
+##  Creating Tables in HTML
 
 The `<table>` tag is used to create a table in HTML. Inside the table, you use `<tr>` for rows, `<th>` for header cells, and `<td>` for regular cells.
 
@@ -467,7 +467,7 @@ The `<table>` tag is used to create a table in HTML. Inside the table, you use `
 
 ---
 
-## 🧑‍🤝‍🧑 Applying `rowspan` and `colspan` Attributes
+##  Applying `rowspan` and `colspan` Attributes
 
 - `**rowspan**`: Allows a cell to span across multiple rows.
     
@@ -497,7 +497,7 @@ The `<table>` tag is used to create a table in HTML. Inside the table, you use `
 - In this example, the `**Name**` header spans 2 rows, and the `**Contact Info**` header spans 2 columns.
 
 ---
-## 🌐 GET vs. POST HTTP Methods
+##  GET vs. POST HTTP Methods
 
 |Feature|**GET**|**POST**|
 |---|---|---|
@@ -509,7 +509,7 @@ The `<table>` tag is used to create a table in HTML. Inside the table, you use `
 
 ---
 
-## 📥 Using Forms in HTML
+##  Using Forms in HTML
 
 The `<form>` tag is used to collect user input and send it to a server.
 
@@ -530,9 +530,9 @@ The `<form>` tag is used to collect user input and send it to a server.
 
 ---
 
-## 🏷️ Form Tags: `label`, `input`, `select`, `option`, `fieldset`, `legend`, `datalist`
+##  Form Tags: `label`, `input`, `select`, `option`, `fieldset`, `legend`, `datalist`
 
-### 🔹 `<label>`
+###  `<label>`
 
 Defines a label for an input element.
 
@@ -541,7 +541,7 @@ Defines a label for an input element.
 <input type="email" id="email" name="email">
 ```
 
-### 🔹 `<input>`
+###  `<input>`
 
 Used for various types of user input.
 
@@ -549,7 +549,7 @@ Used for various types of user input.
 <input type="text" name="username">
 ```
 
-### 🔹 `<select>` and `<option>`
+###  `<select>` and `<option>`
 
 Creates a dropdown menu.
 
@@ -560,7 +560,7 @@ Creates a dropdown menu.
 </select>
 ```
 
-### 🔹 `<fieldset>` and `<legend>`
+###  `<fieldset>` and `<legend>`
 
 Groups related form elements.
 
@@ -571,7 +571,7 @@ Groups related form elements.
 </fieldset>
 ```
 
-### 🔹 `<datalist>`
+###  `<datalist>`
 
 Provides autocomplete options.
 
@@ -586,7 +586,7 @@ Provides autocomplete options.
 
 ---
 
-## 🛠️ Common Attributes
+##  Common Attributes
 
 |   |   |
 |---|---|
@@ -603,11 +603,11 @@ Provides autocomplete options.
 
 ---
 
-## ✅ What is Validation?
+##  What is Validation?
 
 **Validation** is the process of checking if the user's input meets the required criteria **before** submitting the form.
 
-### 🔸 Why Perform Validation?
+###  Why Perform Validation?
 
 - Prevent invalid or incomplete data.
     
@@ -628,7 +628,7 @@ There are **two types** of validation:
 ---
 ## Design Login and registration page
 
-### 🔐 `login.html`
+###  `login.html`
 
 ```
 <!DOCTYPE html>
@@ -656,7 +656,7 @@ There are **two types** of validation:
 
 ---
 
-### 📝 `register.html`
+###  `register.html`
 
 ```
 <!DOCTYPE html>
