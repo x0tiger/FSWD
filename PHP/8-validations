@@ -6,7 +6,7 @@ You check the submitted form data and validate rules like "required", "length" e
 
 ---
 
-### 2. Applied validations: required, >= 6 chars, <= 100 chars
+### 2. Applied validations: required, >= 6 chars, <= 100 chars.
 
 * **Required:** Input must not be empty.
 * **Minimum length:** Input length should be at least 6 characters.
