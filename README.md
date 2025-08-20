@@ -1,8 +1,9 @@
 #  Full Stack Web Development with PHP
 
-This repository is a complete roadmap for learning **Full Stack Web Development** using **PHP & MySQL**, along with essential front-end technologies like **HTML**, **CSS**, **JavaScript**, and **Bootstrap**.
+This repository serves as a fundamental guide and quick revision resource for **Full Stack Web Development** using **PHP & MySQL**, along with core front-end technologies like **HTML**, **CSS**, **JavaScript**, and **Bootstrap**.
 
-It is structured to help beginners and intermediate learners practice core concepts in a hands-on way.
+It is designed to provide a solid starting point and hands-on practice for beginners, or as a structured review for those familiar with web development concepts.
+
 
 ---
 
